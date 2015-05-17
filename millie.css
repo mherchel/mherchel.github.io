@@ -1,13 +1,16 @@
 ul {
   padding: 0;
   max-width: 600px;
+  font-size: 0;
 }
 li {
   padding: 0;
   margin: 0;
   list-style: none;
-  float: left;
-  width: 25%;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
 }
 img {
   max-width: 200px;
