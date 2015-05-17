@@ -25,6 +25,9 @@ li {
   vertical-align: top;
   width: 100%;
 }
+li:hover img {
+  transform: rotate(360deg);
+}
 @media (min-width: 400px) {
   li {
     width: 50%;
