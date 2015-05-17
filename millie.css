@@ -23,7 +23,17 @@ li {
   font-size: 1rem;
   display: inline-block;
   vertical-align: top;
-  width: 33%;
+  width: 100%;
+}
+@media (min-width: 400px) {
+  li {
+    width: 50%;
+  }
+}
+@media (min-width: 600px) {
+  li {
+    width: 33%;
+  }
 }
 img {
   max-width: 200px;
