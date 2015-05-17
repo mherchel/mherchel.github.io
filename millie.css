@@ -1,0 +1,16 @@
+ul {
+  padding: 0;
+  max-width: 600px;
+}
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 25%;
+}
+img {
+  max-width: 200px;
+  border-radius: 50%;
+  transition: all .5s;
+}
